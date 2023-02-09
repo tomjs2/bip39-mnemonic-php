@@ -125,7 +125,7 @@ class BIP39
             throw new \RuntimeException('Failed to generate secure PRNG entropy');
         }
 
-        return $this->entropy2Mnemonic($prng);
+        return $this->entropy2Mnemonic(bin2hex($prng));
     }
 
     /**

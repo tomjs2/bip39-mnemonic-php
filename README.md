@@ -11,7 +11,7 @@ Mnemonic BIP39 implementation in PHP
 
 ### Composer
 
-`composer require furqansiddiqui/bip39-mnemonic-php`
+`composer require fenguoz/bip39-mnemonic-php`
 
 ## Mnemonic Object
 
